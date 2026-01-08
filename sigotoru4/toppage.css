@@ -1,0 +1,19 @@
+h1,
+p,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #9F9FA1;
+  background: #9F9FA1;
+}
+
+.logo{
+  width: 200px;
+  height: 50px;
+}
+
+.navigation{
+  text-align: center;
+}
