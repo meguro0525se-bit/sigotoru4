@@ -5,15 +5,180 @@ body {
 }
 
 body {
-  background-color: #9F9FA1;
-  background: #9F9FA1;
+  background-color: #FAFBFB;
+  font-family: "FOT-筑紫A丸ゴシック" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logo{
-  width: 200px;
-  height: 50px;
+body h2 {
+  text-align: center;
+  font-size: 36px;
 }
 
-.navigation{
+body h3 {
+  font-size: 24px;
+}
+
+body img {
+  width: 100%;
+}
+
+/*ヘッダー部分　ここから */
+.logo {
+  width: 697px;
+  height: 198px;
+}
+
+.contents {
+  width: 897px;
+  height: 213px;
+  border: solid 3px #2B7BB2;
+}
+
+.contents p {
+  font-size: 24px;
+  font-family: ;
+}
+
+/*ヘッダー部分　ここまで */
+/*メイン部分　ここから */
+
+/*ナビゲーションメニュー　ここから */
+#nav {
+  list-style: none;
+}
+
+#nav li {
+  width: 140px;
+  text-align: center;
+  background-color: #333;
+  display: inline-block;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*ナビゲーションメニュー　ここまで */
+
+
+/*メインビジュアル　ここから */
+
+/* 大枠ボックス */
+.main_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 750px;
+}
+
+/* 背景画像の読み込み */
+.main_img-bg {
+  background: url(images/img6.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
+
+/* 重ねる文字の基本設定 */
+.main_img-text {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  letter-spacing: 0.4rem;
+}
+
+/* SP向けの設定 */
+@media screen and (max-width: 600px) {
+  .layer-txt {
+    font-size: 1.4rem;
+    padding: 4rem 0;
+  }
+}
+
+/* PC向けの設定 */
+@media screen and (min-width: 601px) {
+  .layer-txt {
+    font-size: 2rem;
+    padding: 8rem 0;
+  }
+}
+
+
+/*メインビジュアル　ここまで */
+
+
+
+
+/*コンセプト　ここから */
+
+
+.consept p {
+  font-size: 24px;
   text-align: center;
 }
+
+/*コンセプト　ここまで */
+
+/*医院紹介　ここから */
+.about_us p {
+  font-size: 16px;
+}
+
+/*大切にしていること　ここから */
+.important {
+  display: flex;
+}
+
+.important_content {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 400px;
+  height: 250px;
+}
+
+/*大切にしていること　ここまで */
+
+/*特徴　ここから */
+.features {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.features-bg {
+  background: url(images/img8.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
+
+.features_content {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+}
+
+/*特徴　ここまで */
+
+/*医院長挨拶　ここから */
+.doctor2 {
+  width: 810px;
+  height: 1004px;
+  object-fit: cover;
+}
+
+/*医院長挨拶　ここまで */
+
+/*お知らせ　ここから */
+/*お知らせ　ここまで */
+
+/*アクセス　ここから */
+/*アクセス　ここまで */
+
+/*医院紹介　ここまで */
+
+
+
+/*フッター部分　ここから */
+/*フッター部分　ここまで */
