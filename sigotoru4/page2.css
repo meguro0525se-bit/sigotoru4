@@ -1,0 +1,372 @@
+h1,
+p,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #FAFBFB;
+  font-family: "FOT-筑紫A丸ゴシック" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body h3 {
+  font-size: 1em;
+}
+
+body img {
+  width: 60%;
+  margin: 10%;
+}
+
+section {
+  width: 100%;
+}
+
+/*ヘッダー部分　ここから */
+header .inner {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  height: auto;
+  padding: 5%;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  float: left;
+}
+
+.contents {
+  width: calc(50% - 6px);
+  border: solid 3px #2B7BB2;
+  padding: 1%;
+  display: flex;
+}
+
+.contents p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2B7BB2;
+  margin: auto;
+}
+
+.contents input {
+  width: 130px;
+  height: 40px;
+  margin: auto;
+  background-color: #22CAD7;
+  font-weight: bold;
+  color: #F0FBFE;
+  border-color: #22CAD7;
+}
+
+/*ヘッダー部分　ここまで */
+
+/*メイン部分　ここから */
+/*ナビゲーションメニュー　ここから */
+#nav {
+  margin: 1em 1em 0;
+  list-style: none;
+}
+
+#nav li {
+  width: 19.5%;
+  text-align: center;
+  background-color: #EDF2F3;
+  display: inline-block;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #2B7BB2;
+  font-weight: bold;
+  padding: 10px 0;
+  display: block;
+}
+
+/*ナビゲーションメニュー　ここまで */
+
+
+/*メイン　ここから */
+.flex {
+  display: flex;
+  margin: 2%;
+}
+
+
+/*診療科目　ここから */
+.course {
+  background: #F0FBFE;
+}
+
+.course-text {
+  padding: 5% 0;
+  border: solid;
+  border-color: #9F9FA1;
+}
+
+/*一般歯科　ここから */
+
+.course1_content2 {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.course1-text1 {
+  font-size: 1em;
+  margin: 2% 0;
+}
+
+.course1-text2 {
+  font-size: 0.8em;
+  margin: 5% 0;
+}
+
+.inner1 {
+  background: url(images/page2_inner1.png) no-repeat 0 0;
+  background-position: bottom;
+  background-size: cover;
+  padding: 5%;
+}
+
+/*一般歯科　ここまで */
+
+/*小児歯科　ここから */
+.course2_content2 {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.course2-text1 {
+  font-size: 1em;
+  margin: 2% 0;
+}
+
+.course2-text2 {
+  font-size: 0.8em;
+  margin: 5% 0;
+}
+
+.inner2 {
+  background: url(images/page2_inner2.png) no-repeat 0 0;
+  background-position: bottom;
+  padding: 5%;
+}
+
+/*小児歯科　ここまで */
+
+/*口腔外科　ここから */
+.course3_content2 {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.course3-text1 {
+  font-size: 1em;
+  margin: 2% 0;
+}
+
+.course3-text2 {
+  font-size: 0.8em;
+  margin: 5% 0;
+}
+
+.inner3 {
+  background: url(images/page2_inner3.png) no-repeat 0 0;
+  background-size: 100%;
+  background-position: bottom;
+  padding: 4%;
+}
+
+/*口腔外科　ここまで */
+
+/*予防歯科　ここから */
+.course4_content2 {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+}
+
+.course4-text1 {
+  font-size: 1em;
+  margin: 2% 0;
+}
+
+.course4-text2 {
+  font-size: 0.8em;
+  margin: 5% 0;
+}
+
+.inner4 {
+  background: url(images/page2_inner2.png) no-repeat 0 0;
+  background-position: bottom;
+  padding: 5%;
+}
+
+/*予防歯科　ここまで */
+
+
+/*診療科目　ここまで */
+/*メイン　ここまで */
+
+
+
+/*フッター部分　ここから */
+.footer1 {
+  width: 50%;
+  float: left;
+}
+
+.footer1_content {
+  width: 80%;
+  margin: 4% 0 0 10%;
+}
+
+.footer1_content img {
+  display: block;
+  width: 70%;
+
+}
+
+.footer1_content p {
+  display: block;
+
+}
+
+.input {
+  margin: 0 30%;
+}
+
+.footer1_content input {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background-color: #22CAD7;
+  font-weight: bold;
+  color: #F0FBFE;
+  border-color: #22CAD7;
+}
+
+
+/*カレンダー部分　ここから */
+
+.schedule {
+  max-width: 70%;
+  margin: 4% auto;
+  border: 2px solid #b8cbe3;
+  padding: 5%;
+}
+
+.schedule-title {
+  font-size: 1.5em;
+  color: #4f79b6;
+  border-bottom: 3px solid #4f79b6;
+  padding-bottom: 2%;
+  margin-bottom: 7%;
+}
+
+/* 横スクロール対応 */
+.table-wrap {
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 30%;
+  min-width: 400px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1em;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 2% 2%;
+  border-bottom: 2px solid #c6d6ea;
+}
+
+.schedule-table thead th {
+  color: #4f79b6;
+  font-weight: bold;
+}
+
+.schedule-table .time {
+  text-align: left;
+  color: #4f79b6;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* アイコン */
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.icon.circle {
+  border: 3px solid #4f79b6;
+  border-radius: 50%;
+}
+
+.icon.line {
+  width: 18px;
+  height: 3px;
+  background-color: #4f79b6;
+}
+
+/* 注釈 */
+.note {
+  margin-top: 3%;
+  font-size: 1em;
+  color: #555;
+}
+
+/* スマホ微調整 */
+@media screen and (max-width: 600px) {
+  .schedule {
+    padding: 20px;
+  }
+
+  .schedule-title {
+    font-size: 24px;
+  }
+}
+
+.copyright {
+  text-align: center;
+  width: 80%;
+  padding: 1% 0 1% 0;
+  margin: auto;
+  clear: both;
+  border-top: 1px solid #9F9FA1;
+  font-size: 0.5em;
+}
+
+/*カレンダー部分　ここまで */
+
+/*フッター部分　ここまで */
