@@ -1,0 +1,456 @@
+h1,
+p,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #FAFBFB;
+  font-family: "FOT-筑紫A丸ゴシック" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body h3 {
+  font-size: 1em;
+}
+
+body img {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+/*section .inner {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}*/
+
+/*ヘッダー部分　ここから */
+header .inner {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  height: auto;
+  padding: 5%;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  float: left;
+}
+
+
+.contents {
+  width: calc(50% - 6px);
+  border: solid 3px #2B7BB2;
+  padding: 1%;
+  display: flex;
+}
+
+.contents p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2B7BB2;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.contents input {
+  width: 130px;
+  height: 40px;
+  margin: auto;
+  background-color: #22CAD7;
+  font-weight: bold;
+  color: #F0FBFE;
+  border-color: #22CAD7;
+}
+
+/*ヘッダー部分　ここまで */
+/*メイン部分　ここから */
+
+/*ナビゲーションメニュー　ここから */
+#nav {
+  margin: 1em 1em 0;
+  list-style: none;
+}
+
+#nav li {
+  width: 19.5%;
+  text-align: center;
+  background-color: #EDF2F3;
+  display: inline-block;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #2B7BB2;
+  font-weight: bold;
+  padding: 10px 0;
+  display: block;
+}
+
+/*ナビゲーションメニュー　ここまで */
+
+/*メイン　ここから */
+
+/*メインビジュアル　ここから */
+/* 大枠ボックス */
+.main_img {
+  margin: 0 auto;
+  height: 500px;
+}
+
+/* 背景画像の読み込み */
+.main_img-bg {
+  background: url(images/main_img-bg.jpg) no-repeat 0 0;
+  background-size: 100%;
+}
+
+/* 重ねる文字の基本設定 */
+.main_img-text {
+  text-shadow: 1px 1px 4px #fff;
+  color: #2B7BB2;
+  letter-spacing: 0.4rem;
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+/* SP向けの設定 */
+@media screen and (max-width: 600px) {
+  .layer-txt {
+    font-size: 1.4rem;
+    padding: 4rem 0;
+  }
+}
+
+/* PC向けの設定 */
+@media screen and (min-width: 601px) {
+  .layer-txt {
+    font-size: 2rem;
+    padding: 8rem 0;
+  }
+}
+
+
+/*メインビジュアル　ここまで */
+
+
+
+
+/*コンセプト　ここから */
+
+.consept {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.consept p {
+  font-size: 1.1em;
+  padding: 30px 0 0;
+  line-height: 1.5;
+}
+
+/*コンセプト　ここまで */
+
+/*医院紹介　ここから */
+.about_us {
+  background: #F0FBFE;
+}
+
+.about_us-text {
+  padding: 5% 0;
+  border: solid;
+  border-color: #9F9FA1;
+}
+
+/*大切にしていること　ここから */
+.inner1 {
+  background: url(images/inner1.jpg) no-repeat 0 0;
+  background-position: bottom;
+  padding: 60px 20px;
+}
+
+.important {
+  display: flex;
+  margin: 2%;
+}
+
+.important_content {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 700px;
+  margin: 1%;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+
+/*大切にしていること　ここまで */
+
+/*特徴　ここから */
+.features {
+  display: flex;
+  margin: 2%;
+  line-height: 1.5;
+}
+
+.features>div {
+  width: 50%;
+}
+
+.inner2 {
+  background: url(images/inner2.jpg) no-repeat 0 0;
+  background-position: bottom;
+  background-size: cover;
+  padding: 2%;
+  padding: 60px 20px;
+}
+
+.features_content {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  max-width: 400px;
+  width: 100%;
+  min-height: 180px;
+  margin: 1em auto;
+  padding: 2%;
+}
+
+/*特徴　ここまで */
+
+/*医院長挨拶　ここから */
+.greet {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.greet_content {
+  background: #F0FBFE;
+  border: 1px solid #9F9FA1;
+  width: 600px;
+  min-height: 400px;
+  margin: 2%;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+.doctor2 {
+  object-fit: cover;
+}
+
+.greet_content h3 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.inner3 {
+  background: url(images/inner3.jpg) no-repeat 0 0;
+  background-size: 100%;
+  background-position: bottom;
+  padding: 60px 20px;
+}
+
+@media (max-width: 756px) {
+  .greet {
+    display: block;
+  }
+
+  .greet_content {
+    min-height: auto;
+  }
+}
+
+/*医院長挨拶　ここまで */
+
+/*お知らせ　ここから */
+.information {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  padding: 60px 20px;
+  line-height: 1.5;
+}
+
+.information_content {
+  width: 60%;
+  margin: auto;
+  padding: 3% 2% 1% 2%;
+  border-bottom: 1px solid #9F9FA1;
+}
+
+/*お知らせ　ここまで */
+
+/*アクセス　ここから */
+.inner4 {
+  background: url(images/inner4.jpg) no-repeat 0 0;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.access {
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+}
+
+.access_content {
+  padding: 5% 0;
+}
+
+/*アクセス　ここまで */
+/*医院紹介　ここまで */
+/*メイン　ここまで */
+
+/*フッター部分　ここから */
+
+.footer1 {
+  width: 50%;
+  float: left;
+}
+
+.footer1_content {
+  width: 80%;
+  margin: 4% 0 0 10%;
+  line-height: 1.5;
+}
+
+.footer1_content img {
+  display: block;
+  width: 70%;
+
+}
+
+.footer1_content p {
+  display: block;
+
+}
+
+.input {
+  margin: 0 30%;
+}
+
+.footer1_content input {
+  display: block;
+  width: 130px;
+  height: 40px;
+  background-color: #22CAD7;
+  font-weight: bold;
+  color: #F0FBFE;
+  border-color: #22CAD7;
+}
+
+
+/*カレンダー部分　ここから */
+
+.schedule {
+  max-width: 70%;
+  margin: 4% auto;
+  border: 2px solid #b8cbe3;
+  padding: 5%;
+}
+
+.schedule-title {
+  font-size: 1.5em;
+  color: #4f79b6;
+  border-bottom: 3px solid #4f79b6;
+  padding-bottom: 2%;
+  margin-bottom: 7%;
+}
+
+/* 横スクロール対応 */
+.table-wrap {
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 30%;
+  min-width: 400px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1em;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 2% 2%;
+  border-bottom: 2px solid #c6d6ea;
+}
+
+.schedule-table thead th {
+  color: #4f79b6;
+  font-weight: bold;
+}
+
+.schedule-table .time {
+  text-align: left;
+  color: #4f79b6;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* アイコン */
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+.icon.circle {
+  border: 3px solid #4f79b6;
+  border-radius: 50%;
+}
+
+.icon.line {
+  width: 18px;
+  height: 3px;
+  background-color: #4f79b6;
+}
+
+/* 注釈 */
+.note {
+  margin-top: 3%;
+  font-size: 1em;
+  color: #555;
+}
+
+/* スマホ微調整 */
+@media screen and (max-width: 600px) {
+  .schedule {
+    padding: 20px;
+  }
+
+  .schedule-title {
+    font-size: 24px;
+  }
+}
+
+.copyright {
+  text-align: center;
+  width: 80%;
+  padding: 1% 0 1% 0;
+  margin: auto;
+  clear: both;
+  border-top: 1px solid #9F9FA1;
+  font-size: 0.5em;
+}
+
+/*カレンダー部分　ここまで */
+
+/*フッター部分　ここまで */
